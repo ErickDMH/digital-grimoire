@@ -1,0 +1,5 @@
+.obsidian/
+.DS_Store
+.syncthing/
+node_modules/
+.env

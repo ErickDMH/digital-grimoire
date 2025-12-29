@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: cermj-eplee
+created: 2025-12-29T06:06:06Z

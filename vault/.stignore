@@ -1,0 +1,26 @@
+# --------------------------------------------
+# Cauldron — Syncthing Ignore Rules
+# --------------------------------------------
+
+# Obsidian workspace / cache
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Obsidian transient state
+.obsidian/plugins/**/.cache/
+.obsidian/plugins/**/data.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Temporary / editor files
+*.swp
+*.tmp
+*.bak
+*~
+
+# Syncthing internals (extra safety)
+.stfolder
+.stversions

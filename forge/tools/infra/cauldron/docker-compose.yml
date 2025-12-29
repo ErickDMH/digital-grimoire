@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  syncthing:
+    image: syncthing/syncthing:latest
+    container_name: cauldron-syncthing
+    hostname: cauldron
+    volumes:
+      - ../../../../vault:/vault
+      - ./syncthing/config:/var/syncthing
+    ports:
+      - "8384:8384" # Web UI
+      - "22000:22000/tcp"
+      - "22000:22000/udp"
+      - "21027:21027/udp"
+    restart: unless-stopped

@@ -3,3 +3,4 @@
 .syncthing/
 node_modules/
 .env
+syncthing/
